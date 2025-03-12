@@ -9,15 +9,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content=
 		"width=device-width, initial-scale=1.0">
-	<title>Freelance Writing</title>
+	<title>Freelance Writing, Editing, Content Creation, SEO, </title>
 	<link  href="{% static 'css/main.css' %}" rel="stylesheet">
 	<link  href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 	
 
 </head>
-<section id="socialnav">
-	<!-- social nav  -->
+<!-- <section id="socialnav">
+
 
 	<nav class="navbar navbar-expand-lg">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,10 +49,12 @@
 		 
 		</div>
 	  </nav>
-	<!-- end social nav -->
-</section>
+
+</section> -->
+
+
 <section id="navbar">
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
 	<div class="container-fluid">
 	  <a class="navbar-brand" href="#">iWriter</a>
 	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,11 +63,11 @@
 	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		<div class="navbar-nav ms-auto">
 		  <a class="nav-link active" aria-current="page" href="#">Home</a>
+		  <a class="nav-link" href="#process">How it works</a>
 		  <a class="nav-link" href="#services">Services</a>
-		  <a class="nav-link" href="#">Benefits</a>
-		  <a class="nav-link" href="#">Team</a>
-		  <a class="nav-link" href="#">FAQ</a>
-		  <a class="nav-link" href="#">Reviews</a>
+		  <a class="nav-link" href="#testimonials">Testimonials</a>
+		  <a class="nav-link" href="#">Contact Us</a>
+	
 		  
 		</div>
 	  </div>
@@ -77,5 +82,66 @@
 	</div>
 </body>
 
-<script src="{% static 'js/bootstrap.js' %}"></script>
+<footer>
+	<div class="contaier">
+			<div class=" mt-3 row">
+				<div class="col-md-3">
+				<ul>
+					<li> <a class="nav-link" href="#home">Freelance writing</a></li>
+					<li> <a class="nav-link" href="#home">Freelance Ghost writing</a></li>
+					<li> <a class="nav-link" href="#home">AI Prompt Enginnering</a></li>
+					<li> <a class="nav-link" href="#home">Article Writing Jobs</a></li>
+					<li> <a class="nav-link" href="#home">Dissertation writing</a></li>
+				
+					
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+				<ul>
+					<li> <a class="nav-link" href="#home">Copywriting</a></li>
+					<li> <a class="nav-link" href="#home">Essay writing</a></li>
+					<li> <a class="nav-link" href="#home">Online Tutoring</a></li>
+					<li> <a class="nav-link" href="#home">Creative Writing </a></li>
+					<li> <a class="nav-link" href="#home">Legal writing</a></li>
+				
+					
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+				<ul>
+					<li> <a class="nav-link" href="#home">Education writing</a></li>
+					<li> <a class="nav-link" href="#home">AI Editing</a></li>
+					<li> <a class="nav-link" href="#home">Business Writing</a></li>
+					<li> <a class="nav-link" href="#home">Technical Writing</a></li>
+					<li> <a class="nav-link" href="#home">Research Writing</a></li>
+				
+					
+				</ul>
+			</div>
+
+			<div class="col-md-3">
+				<ul>
+					<li> <a class="nav-link" href="#home">Content Writing</a></li>
+					<li> <a class="nav-link" href="#home">Proofreading Ghost writing</a></li>
+					<li> <a class="nav-link" href="#home">AI Prompt Enginnering</a></li>
+					<li> <a class="nav-link" href="#home">History Writing</a></li>
+					<li> <a class="nav-link" href="#home">Thesis writing</a></li>
+				
+					
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class=" mt-3 row text-center">
+		Copyright &copy; iWriter <script>document.write(new Date().getFullYear())</script>
+	</div>
+	<script src="{% static 'js/bootstrap.js' %}"></script>
+	
+</footer>
+
+
 </html>
