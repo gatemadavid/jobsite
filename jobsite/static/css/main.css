@@ -1,0 +1,31 @@
+#socialnav{
+    background-color: purple !important;
+    color:white;
+}
+#socialnav a{
+   color:white;
+}
+.btn-purple{
+    background-color: purple !important;
+}
+
+
+#process{
+    background-color: purple !important;
+    color: white;
+}
+
+#process i {
+    background-color: purple !important;
+    color: white;
+}
+#services{
+    background-color: #ecf0f9;
+}
+#services ul{
+    list-style: none;
+}
+#services ul li i{
+    list-style: none;
+    color: purple;
+}

@@ -1,0 +1,92 @@
+
+{% extends "_base.html" %}
+{% load static %}
+{% block content %}
+<section id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 mt-4">
+				<h1 class="mb-4 text-center fw-bold">
+					Expert Freelance Writers For You.
+				</h1>
+				<h5 class="fw-light">We are a freelance writing agency, with experts for your assignments and data analysis tasks.</h5>
+				<div class="mt-5">
+					<a class="btn btn-purple text-white" href="#" role="button">Place Your Order</a>
+				</div>
+			</div>
+			
+			<div class=" col-md-6">
+				<img class="img-fluid" src="{% static 'img/home.svg' %}" alt="">
+			</div>
+			
+		</div>
+
+	</div>
+</section>
+<section id="process">
+	<div class="container">
+		<h3 class="pt-5 mb-5 text-center fw-bold">How to order:</h3>
+		<div class="row pb-4">
+			<div class="col-md-3 text-center">
+				<i class="fa-regular fa-clipboard fs-1 mb-4"></i>
+				<p>To offer the best writing services possible, we need your assignment instructions. Please 
+					complete the online form. </p>
+				
+				
+			</div>
+
+			<div class="col-md-3 text-center">
+				<i class="fa-solid fa-user-pen fs-1 mb-4"></i>
+				<p>To ensure the highest quality, we assign you an expert writer in your discipline. We have over 50 experienced
+					writers who will handle your assignments.  </p>
+				
+				
+			</div>
+			<div class="col-md-3 text-center">
+				<i class="fa-solid fa-inbox fs-1 mb-4"></i>
+				<p>Once the assignment is completed, you will receive it via email. We provide free revisions to your satisfaction. </p>
+				
+				
+			</div>
+			<div class="col-md-3 text-center">
+				<i class="fa-solid fa-file-invoice-dollar fs-1 mb-4"></i>
+				<p>Pay for the services. Our services are fairly priced.  </p>
+				
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="services">
+	<div class="container">
+		<h2 class=" pt-5 fw-bold text-center">Our Services</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<ul>
+					<li><i class="fa-solid fa-circle-check"></i> Ph.D Dissertations</li>
+					<li> <i class="fa-solid fa-circle-check"></i> Masters Dissertations</li>
+					<li> <i class="fa-solid fa-circle-check"></i> Graduate and Undergraduate Essays</li>
+					<li><i class="fa-solid fa-circle-check"></i> Term Papers</li>
+					<li><i class="fa-solid fa-circle-check"></i> PowerPoint Presentations</li>
+					<li><i class="fa-solid fa-circle-check"></i> Excel Spreadsheets</li>
+					<li><i class="fa-solid fa-circle-check"></i> Annotated Bibliography</li>
+					<li><i class="fa-solid fa-circle-check"></i> Reports</li>
+					<li><i class="fa-solid fa-circle-check"></i> College Application Essays</li>
+					<li><i class="fa-solid fa-circle-check"></i> Research Papers</li>
+					<li><i class="fa-solid fa-circle-check"></i> Book Reviews</li>
+					<li><i class="fa-solid fa-circle-check"></i> Article Reviews</li>
+				</ul>
+			</div>
+			<div class="col-md-6">
+				<img class="img-fluid" style="height: 25em;" src="{% static 'img/grad.jpg' %}" alt="">
+				
+			</div>
+		</div>
+	</div>
+
+</section>
+<section id="testimonials">
+	
+</section>
+	
+{% endblock content %}

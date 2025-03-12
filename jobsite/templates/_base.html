@@ -1,0 +1,81 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>Freelance Writing</title>
+	<link  href="{% static 'css/main.css' %}" rel="stylesheet">
+	<link  href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+
+</head>
+<section id="socialnav">
+	<!-- social nav  -->
+
+	<nav class="navbar navbar-expand-lg">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mx-auto">
+			<li class="nav-item">
+			  <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i> +1 440 399 8888 </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#"><i class="fa-solid fa-envelope"></i> iwriter@gmail.com</a>
+			</li>
+		
+			<li class="nav-item">
+			  <a class="nav-link" href="#"><i class="fa-brands fa-instagram"></i> iWriter</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i class="fa-brands fa-x-twitter"></i> iWriter</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="#"><i class="fa-brands fa-tiktok"></i></i> iWriter</a>
+			</li>
+		  </ul>
+		 
+		</div>
+	  </nav>
+	<!-- end social nav -->
+</section>
+<section id="navbar">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	<div class="container-fluid">
+	  <a class="navbar-brand" href="#">iWriter</a>
+	  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav ms-auto">
+		  <a class="nav-link active" aria-current="page" href="#">Home</a>
+		  <a class="nav-link" href="#services">Services</a>
+		  <a class="nav-link" href="#">Benefits</a>
+		  <a class="nav-link" href="#">Team</a>
+		  <a class="nav-link" href="#">FAQ</a>
+		  <a class="nav-link" href="#">Reviews</a>
+		  
+		</div>
+	  </div>
+	</div>
+  </nav>
+</section>
+<body>
+	<div class="mt-2">
+		{% block content %}
+		
+		{% endblock content %}
+	</div>
+</body>
+
+<script src="{% static 'js/bootstrap.js' %}"></script>
+</html>
