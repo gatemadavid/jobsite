@@ -1,3 +1,9 @@
+body{
+    font-family: Lato, sans-serif;
+}
+#home{
+    height:6vh;
+}
 #socialnav{
     background-color: purple !important;
     color:white;
@@ -6,17 +12,20 @@
    color:white;
 }
 .btn-purple{
-    background-color: purple !important;
+    background-color: #6399f4 !important;
 }
 
+.btn-purple :hover {
+    background-color: black;
+}
 
 #process{
-    background-color: purple !important;
+    background-color: #cf2e2e !important;
     color: white;
 }
 
 #process i {
-    background-color: purple !important;
+    background-color: #cf2e2e !important;
     color: white;
 }
 #services{
@@ -27,5 +36,7 @@
 }
 #services ul li i{
     list-style: none;
-    color: purple;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cf2e2e;
 }
